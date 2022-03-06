@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.10;
 
+import "./MultiDelegateCall.sol";
+
 contract TestMultiDelegateCall is MultiDelegateCall {
     event Log(address caller, string func, uint256 i);
 
